@@ -1,0 +1,98 @@
+.link-font {
+  font-size: 16px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.fa-chevron-down {
+  font-size: 13px;
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.card-body {
+  padding: 7px;
+}
+
+.main-hading {
+  font-size: 2.5rem;
+}
+
+.intro-container {
+  width: 60%;
+}
+
+.main-paragraph {
+  color: #a48bfe;
+  letter-spacing: -0.03rem;
+  color: hsla(0, 0%, 100%, 0.5) !important;
+  font-size: 1.25rem;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #19cb98;
+  border-color: #19cb98;
+}
+
+.main-img {
+  height: 350px;
+  width: 500px;
+}
+
+.courses-heading {
+  font-family: Inter, "sans-serif";
+  font-weight: 600 !important;
+  line-height: 1.4;
+  color: #18113c;
+}
+
+.courses-para {
+  font-family: Inter, "sans-serif";
+  margin-top: -10px;
+  font-weight: 100;
+  color: rgb(88, 88, 88);
+}
+
+.emoji-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffeeda;
+}
+
+.emoji {
+  color: #c28135;
+}
+
+.recommendation-heading {
+  font-family: Inter, "sans-serif";
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 8rem 8rem 0 8rem;
+}
+
+.carousel-directions {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+
+.footer {
+    padding: 120px 40px 0 40px;
+    background-color: #f5f4f8;
+}

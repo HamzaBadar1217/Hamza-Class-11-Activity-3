@@ -91,8 +91,102 @@
   background-color: white;
 }
 
-
 .footer {
-    padding: 120px 40px 0 40px;
-    background-color: #f5f4f8;
+  padding: 120px 40px 0 40px;
+  background-color: #f5f4f8;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  border: none;
+  width: 200px;
+}
+
+.dropdown-item {
+  font-size: 0.875rem;
+  line-height: 28px;
+  font-weight: 500;
+  color: #18113c;
+  padding: 0.125rem 1.2rem;
+}
+
+.dropdown-item:hover {
+  color: #754ffe;
+}
+
+.nav-item:hover {
+  color: #754ffe;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 0.875rem;
+  color: #18113c;
+  font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #808080;
+}
+
+.next-drop-icon {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.landing-heading {
+  font-size: 13px;
+  padding: 12px 12px 0 18px;
+  color: rgb(165, 165, 165);
+}
+
+.documnetation-icon {
+  font-size: 20px;
+}
+
+.documnetation-para {
+  position: relative;
+  top: -12px;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.online-sect {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 10px;
+  left: 25px;
+  border: 2px solid white;
+}
+
+.notication-bell {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #efeff0;
+  color: #a8a3b9;
+}
+
+.noti-sect {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+  right: 20px;
+  bottom: 4px;
+  border: 2px solid white;
+}
+
+.notication-bell:hover {
+  background-color: #d6d6d6;
+  color: #0D6EFD;
 }
